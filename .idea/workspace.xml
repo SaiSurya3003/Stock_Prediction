@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Stock_Prediction_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AAPL_financials.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t1_get_stock_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t2_get_stock_history.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t3_dividends_splits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t4_display_earnings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t5_display_holders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t6_streamlit.py" afterDir="false" />
-    </list>
+    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Basic Files to understand YFINANCE package and STREAMLIT package" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,9 +61,20 @@
       <option name="presentableId" value="Default" />
       <updated>1730563038888</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basic Files to understand YFINANCE package and STREAMLIT package">
+      <option name="closed" value="true" />
+      <created>1731279839661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731279839661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Basic Files to understand YFINANCE package and STREAMLIT package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Files to understand YFINANCE package and STREAMLIT package" />
   </component>
 </project>

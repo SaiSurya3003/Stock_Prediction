@@ -7,7 +7,7 @@ stock_data = yf.Ticker(ticker)
 
 st.title("Stock Information for AAPL")
 
-st.write("Company Information") ##writing the information we want to display on the page
+st.write("Company Information") ## writing the information we want to display on the page
 st.write(stock_data.info) ## Writing the acquired information abou the company
 
 st.write("Earning Calender")
