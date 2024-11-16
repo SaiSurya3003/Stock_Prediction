@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Basic Files to understand YFINANCE package and STREAMLIT package">
-      <change afterPath="$PROJECT_DIR$/t7_history_price_dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Dashboard of HistoryXPrice">
+      <change afterPath="$PROJECT_DIR$/t8_financial_information_streamlit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
     "Python.get_stock_data.executor": "Run",
     "Python.get_stock_history.executor": "Run",
     "Python.t5_display_holders.executor": "Run",
+    "Python.t7_history_price_dashboard.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -102,12 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1731280230111</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dashboard of HistoryXPrice">
+      <option name="closed" value="true" />
+      <created>1731717084169</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731717084170</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Basic Files to understand YFINANCE package and STREAMLIT package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Files to understand YFINANCE package and STREAMLIT package" />
+    <MESSAGE value="Dashboard of HistoryXPrice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dashboard of HistoryXPrice" />
   </component>
 </project>
