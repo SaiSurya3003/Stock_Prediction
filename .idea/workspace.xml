@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Financial Information about a Stock">
-      <change afterPath="$PROJECT_DIR$/NasDaqTraderList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockDataOutcome.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t9_get_multiple_stock_data.py" afterDir="false" />
+    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Getting data about multiple stocks from NasDaq">
+      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/commodities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/cryptos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/etfs_value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/underpriced_stocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app/streamlit_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731718645904</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Getting data about multiple stocks from NasDaq">
+      <option name="closed" value="true" />
+      <created>1732386758627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732386758627</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -168,6 +178,7 @@
     <MESSAGE value="Basic Files to understand YFINANCE package and STREAMLIT package" />
     <MESSAGE value="Dashboard of HistoryXPrice" />
     <MESSAGE value="Financial Information about a Stock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Financial Information about a Stock" />
+    <MESSAGE value="Getting data about multiple stocks from NasDaq" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting data about multiple stocks from NasDaq" />
   </component>
 </project>
