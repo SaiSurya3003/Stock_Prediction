@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Getting data about multiple stocks from NasDaq">
-      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/commodities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/cryptos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/etfs_value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/pages/underpriced_stocks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app/streamlit_app.py" afterDir="false" />
+    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Adding initial Project Files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/cryptos.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/pages/cryptos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732386758627</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding initial Project Files">
+      <option name="closed" value="true" />
+      <created>1732487302203</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732487302203</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +182,7 @@
     <MESSAGE value="Dashboard of HistoryXPrice" />
     <MESSAGE value="Financial Information about a Stock" />
     <MESSAGE value="Getting data about multiple stocks from NasDaq" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting data about multiple stocks from NasDaq" />
+    <MESSAGE value="Adding initial Project Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding initial Project Files" />
   </component>
 </project>
