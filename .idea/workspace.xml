@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Adding initial Project Files">
+    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Adding initial Project Files of cryptos">
+      <change afterPath="$PROJECT_DIR$/etfs.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/cryptos.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/pages/cryptos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app/pages/etfs_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app/pages/etfs_value.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732487302203</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding initial Project Files of cryptos">
+      <option name="closed" value="true" />
+      <created>1732823990864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732823990864</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,6 +192,7 @@
     <MESSAGE value="Financial Information about a Stock" />
     <MESSAGE value="Getting data about multiple stocks from NasDaq" />
     <MESSAGE value="Adding initial Project Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding initial Project Files" />
+    <MESSAGE value="Adding initial Project Files of cryptos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding initial Project Files of cryptos" />
   </component>
 </project>
