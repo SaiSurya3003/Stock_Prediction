@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Predicting the SMA50 and SMA200 Prices for various stocks">
-      <change afterPath="$PROJECT_DIR$/t11_sma5_sma8_sma13.py" afterDir="false" />
+    <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Predicting the SMA5, SMA8 and SMA13 Prices for various stocks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t11_sma5_sma8_sma13.py" beforeDir="false" afterPath="$PROJECT_DIR$/t11_sma5_sma8_sma13.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734976571167</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Predicting the SMA5, SMA8 and SMA13 Prices for various stocks">
+      <option name="closed" value="true" />
+      <created>1735006263922</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735006263922</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,6 +259,7 @@
     <MESSAGE value="Adding initial Project Files of ETFs" />
     <MESSAGE value="Adding initial Project Files of UnderPricedStocks" />
     <MESSAGE value="Predicting the SMA50 and SMA200 Prices for various stocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Predicting the SMA50 and SMA200 Prices for various stocks" />
+    <MESSAGE value="Predicting the SMA5, SMA8 and SMA13 Prices for various stocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Predicting the SMA5, SMA8 and SMA13 Prices for various stocks" />
   </component>
 </project>

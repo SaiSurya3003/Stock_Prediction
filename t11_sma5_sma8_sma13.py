@@ -20,6 +20,7 @@ def detect_crossover(df):
     return buy_signals, sell_signals
 
 buy_signals, sell_signals=detect_crossover(hist)
+
 plt.figure(figsize=(14,7))
 plt.plot(hist['Close'], label='AMZN Close', alpha=1.0)
 plt.plot(hist['SMA_5'], label='SMA_5', alpha=1.0)
@@ -36,4 +37,6 @@ plt.title("AMZN Closure Prices and SMA Crossovers")
 plt.xlabel("Date")
 plt.ylabel("Price")
 plt.legend()
-plt.show()
+
+# Save the plot as a PNG image
+plt.savefig("AMZN_SMA_Crossovers.png")
