@@ -68,3 +68,70 @@ def main():
             volume_fig.add_trace(go.Bar(x=stock_data.index, y=stock_data['Volume'], name='Trade Volume'))
             volume_fig.update_layout(title="Volume Plot")
             st.plotly_chart(volume_fig)
+
+            if selected_model == "Neural Network":
+                model_path = os.path.join(base_dir, 'models', 'neural_network', f'{stock_symbol}_nn.keras')
+                model = load_model(model_path)
+                expected_input_shape = model.input_shape
+                st.write(f"Model input shape: {expected_input_shape}")
+            elif selected_model == "Random Forest":
+                model_path = os.path.join(base_dir, 'models', 'random_forest', f'{stock_symbol}_rf.pkl')
+                model = joblib.load(model_path)
+            elif selected_model == "Linear Regression":
+                model_path = os.path.join(base_dir, 'models', 'linear_regression', f'{stock_symbol}_lr.pkl')
+                model = joblib.load(model_path)
+
+            scaler = MinMaxScaler(feature_range=(0,1))
+            scaled_data = scaler.fit_transform(stock_data['Close'].values.reshape(-1,1))
+            x_pred, y_true = create_dataset((scaled_data))
+            st.write(f"x_pred shape before reshape: {x_pred.shape}")
+
+            if selected_model == "Neural Network":
+                x_pred = x_pred.reshape(x_pred.shape[0], x_pred.shape[1], 1)
+                st.write(f"x pred shape after reshape: {x_pred.shape}")
+                y_pred = model.predict(x_pred)
+                y_pred = scaler.inverse_transform(y_pred)
+            elif selected_model in ['Random Forest', 'Linear Regression']:
+                x_pred = x_pred.reshape(x_pred.shape[0], -1)
+                st.write(f"x pred shape after reshape: {x_pred.shape}")
+                y_pred = model.predict(x_pred)
+                y_pred = scaler.inverse_transform(y_pred.reshape(-1, 1))
+
+            st.subheader('Original vs Predicted Prices')
+            fig3  =go.Figure()
+            fig3.add_trace(go.Scatter(x=stock_data.index[100:], y=stock_data['Close'][100:], mode='lines', name='Original Price'))
+            fig3.add_trace(go.Scatter(x=stock_data.index[100:], y=y_pred.flatten(), mode='lines', name='Predicted Price'))
+            st.plotly_chart(fig3)
+
+            y_true = stock_data['Close'].values[100:]
+            mae = mean_absolute_error(y_true, y_pred)
+            mse = mean_squared_error(y_true, y_pred)
+
+            st.subheader("Model Evaluation")
+            st.write(f"Mean Absolute Error: {mae:.2f}")
+            st.write(f"Mean Squared Error: {mse:.2f}")
+
+            forecast_dates = [stock_data.index[-1]+timedelta(days=i) for i in range(1, 31)]
+            forecast = pd.DataFrame(index=forecast_dates, columns=['Forecast'])
+
+            last_100_days = stock_data['Close'].tail(100)
+            last_100_days_scaled = scaler.transform(last_100_days.values.reshape(-1, 1))
+
+            for i in range(30):
+                x_forecast = last_100_days_scaled[-100::].reshape(1, -1)
+                if selected_model == 'Neural Network':
+                    x_forecast = x_forecast.reshape(x_forecast.shape[0], x_forecast.shape[1], 1)
+                else:
+                    x_forecast = x_forecast.reshape(1, -1)
+                y_forecast = model.predict(x_forecast)
+                forecast.iloc[i] = scaler.inverse.transform(y_forecast.reshape(-1, 1))[0][0]
+                last_100_days_scaled = np.append(last_100_days_scaled, y_forecast.reshape(-1, 1))
+
+            st.subheader("30-Day Forecast")
+            st.write(forecast)
+
+        except Exception as e:
+            st.error(f"Error{e}")
+
+if __name__ == "__main__":
+    main()
