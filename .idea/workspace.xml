@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ea4611e-af53-4078-b12b-a01645ba3726" name="Changes" comment="Added Code Base for the Predicting Stocks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prediction_models/app/streamlit_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/prediction_models/app/streamlit_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prediction_models/models/linear_regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prediction_models/models/neural_network.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prediction_models/models/random_forest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prediction_models/scripts/train_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/prediction_models/scripts/train_linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prediction_models/scripts/train_random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/prediction_models/scripts/train_random_forest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
